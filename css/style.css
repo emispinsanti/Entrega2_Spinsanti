@@ -156,6 +156,19 @@
     margin: 0%;
     padding-bottom: 1%;
   }
+  fieldset {
+    border-width: 0px;
+  }
+  fieldset div{
+    margin-top: 2%;
+  }
+  input[type=button] {
+    font-family: "Prompt", sans-serif;
+    margin-top: 2%;
+  }
+  textarea {
+    resize: none;
+}
 }
 @media screen and (min-width: 768px) {
   /*GENERAL*/
