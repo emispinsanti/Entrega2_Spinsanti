@@ -1,0 +1,420 @@
+@media screen and (max-width:767px) {
+
+    /*GENERAL CEL*/
+
+    body{
+        background-color: #1f1a1e;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+    }
+
+    nav{
+        background-color:#161213;
+        text-align: center;
+        align-items: center;
+    }
+
+    main{
+        margin-bottom: 8%;
+    }
+
+    .logo{
+        grid-area: logo;
+        justify-self: center;
+    }
+
+    .botonera{
+        grid-area: botonera;
+    }
+
+    .botonera ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .botonera ul li:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-out;
+    }
+
+    .botonera ul li a:hover{
+        transform: scale(2);
+        text-shadow: 5px 5px 8px #c40c15,
+        -5px -5px 8px #c40c15,
+        -5px 5px 8px #c40c15,
+        5px -5px 8px #c40c15;
+    }
+
+    ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+
+    h1{
+        text-align: center;
+        //font-family: $titulos;
+        //font-size: $large;
+        margin: 0%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    footer{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        background-color: #8c1f24;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .menu_footer{
+        display:none !important;
+    }
+
+    .social a{
+        margin: 4%;
+        justify-content: space-evenly;
+    }
+
+    /*INDEX CEL*/
+
+    .img_index{
+        background-color:#1f1a1e;
+        width: 100%;
+        height: auto;
+    }
+
+    .texto_index{
+        margin: 4% 4% 6% 4%;
+        text-align: center;
+    }
+        
+    /*SOBRE MI CEL*/
+    
+    .cv_izq{
+        align-items: center;
+    }
+
+    .cv_izq div{
+        height: auto;
+        text-align: center;
+        margin: 4%;
+    }
+    .cv_izq div p{
+        height: auto;
+        margin: 6%;
+    }
+
+    .cv_der{
+        align-items: center;
+    }
+
+    .cv_der div{
+        height: auto;
+        text-align: center;
+        margin: 6%;
+    }
+    .cv_der div p{
+        height: auto;
+        margin: 4%;
+    }
+
+    .exp_lab{
+        list-style-type:disc;
+    }
+
+    /*SERVICIOS CEL*/
+
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .servicios div{
+        margin: 3%;
+    }
+
+    /*PORTFOLIO CEL*/
+
+    .portfolio{
+        margin-top: 3%;
+        margin-bottom: 7%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .portfolio div{
+        background-color: white;
+        color:#161213;
+        padding: 0.2%;
+        margin: 3%;
+        width: fit-content;
+    }
+
+    .portfolio div p{
+        width: fit-content;
+    }
+
+    /*CONTACTO CEL*/
+
+    .contacto div{
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .contacto div a{
+        margin: 0% 2%;
+    }
+
+    .contacto div form{
+        margin: 6%;
+    }
+
+    .suscribite{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 4%;
+        background-color: #8c1f24;
+    }
+
+    h2{
+        margin: 0%;
+        padding-bottom: 1%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+
+    /*GENERAL*/
+
+    body{
+        background-color: #1f1a1e;
+        background-image:url(../img/img_fondo.jpg);
+        background-size:auto;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 0%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+    }
+
+    nav{
+        background-color:#161213;
+        display: grid;
+        grid-template-columns: 150px auto;
+        grid-template-areas: "logo botonera";
+        align-items: center;
+    }
+
+    main{
+        margin-bottom: 5%;
+    }
+
+    .logo{
+        grid-area: logo;
+        justify-self: center;
+    }
+
+    .botonera{
+        grid-area: botonera;
+    }
+
+    .botonera ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .botonera ul li:hover{
+        transform: scale(1.2);
+        transition: all 0.2s ease-out;
+    }
+
+    .botonera ul li a:hover{
+        transform: scale(2);
+        text-shadow: 5px 5px 8px #c40c15,
+        -5px -5px 8px #c40c15,
+        -5px 5px 8px #c40c15,
+        5px -5px 8px #c40c15;
+    }
+
+    ul li a{
+        text-decoration: none;
+        //font-size: $small;
+        color: white;
+    }
+
+    h1{
+        text-align: center;
+        //font-family: $titulos;
+        //font-size: $large;
+        margin: 0%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    footer{
+        background-color: #8c1f24;
+        padding: 0.5%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+    }
+
+    .social{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    /*INDEX*/
+
+    .img_index{
+        background-color:#1f1a1e;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .texto_index{
+        margin: 3% 3% 3% 3%;
+        text-align: justify;
+    }
+
+    /*SOBRE MI*/
+
+    .cv_izq{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto;
+        text-align: left;
+        align-items: center;
+        margin: 0% 2% 1% 2%;
+    }
+
+    .cv_izq div{
+        padding: 2%;
+    }
+
+    .cv_der{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "datos img";
+        text-align: right;
+        align-items: center;
+        margin: 3%;
+    }
+
+    .cv_der div{
+        padding: 2%;
+    }
+
+    .img{
+        grid-area: img;
+    }
+    .datos{
+        grid-area: datos;
+    }
+
+    .exp_lab{
+        list-style-type:disc;
+        line-height: 35px;
+        padding-left: 3%;
+    }
+
+    /*SERVICIOS*/
+
+    .servicios{
+        padding-bottom: 3%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .servicios div{
+        margin: 6%;
+    };
+
+    /*PORTFOLIO*/
+
+    .portfolio{
+        margin-top: 3%;
+        margin-bottom: 7%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .portfolio div{
+        background-color: white;
+        color:#161213;
+        padding: 0.2%;
+        width: fit-content;
+    }
+
+    .portfolio div p{
+        text-align: center;
+    }
+
+    /*CONTACTO*/
+
+    .contacto{
+        margin-top: 1%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .contacto div{
+        max-width: 40%;
+        height: auto;
+    }
+
+    .contacto div a{
+        margin: 0% 2%;
+    }
+
+    .suscribite{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 2%;
+        background-color: #8c1f24;
+    }
+
+    h2{
+        margin: 0%;
+        padding-bottom: 1%;
+    }
+
+}
